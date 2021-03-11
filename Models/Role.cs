@@ -14,5 +14,7 @@ namespace demandeAdmin.Models
 
         public string description { get; set; }
 
+        public ICollection<User> users { get; set; }
+
     }
 }

@@ -11,5 +11,9 @@ namespace demandeAdmin.Models
         public string type { get; set; }
         public string description { get; set; }
 
+
+
+
+        public ICollection<Demande> demandes { get; set; }
     }
 }
