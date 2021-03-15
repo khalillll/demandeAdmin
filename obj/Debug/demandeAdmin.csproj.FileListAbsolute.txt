@@ -211,10 +211,13 @@ C:\DmdAdmin\demandeAdmin\bin\Microsoft.Owin.Security.Twitter.xml
 C:\DmdAdmin\demandeAdmin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\DmdAdmin\demandeAdmin\bin\Microsoft.Owin.Security.OAuth.xml
 C:\DmdAdmin\demandeAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.csprojAssemblyReference.cache
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.Migrations.initialcreate.resources
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.csproj.GenerateResource.cache
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.csproj.CoreCompileInputs.cache
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.csproj.CopyComplete
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.dll
 C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.pdb
+C:\DmdAdmin\demandeAdmin\obj\Debug\demandeAdmin.csprojAssemblyReference.cache
+C:\DmdAdmin\demandeAdmin\bin\DPAContext.dll
+C:\DmdAdmin\demandeAdmin\bin\DPAContext.pdb
+C:\DmdAdmin\demandeAdmin\bin\DPAContext.dll.config

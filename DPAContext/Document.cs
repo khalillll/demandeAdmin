@@ -15,7 +15,8 @@ namespace DPAContext
             Requests = new HashSet<Request>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
 
         [StringLength(50)]
