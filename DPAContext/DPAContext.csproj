@@ -82,9 +82,9 @@
     <Compile Include="Comment.cs" />
     <Compile Include="Document.cs" />
     <Compile Include="DPAContextModels.cs" />
-    <Compile Include="Migrations\202103121156508_initialze.cs" />
-    <Compile Include="Migrations\202103121156508_initialze.Designer.cs">
-      <DependentUpon>202103121156508_initialze.cs</DependentUpon>
+    <Compile Include="Migrations\202103151420459_initialMigration.cs" />
+    <Compile Include="Migrations\202103151420459_initialMigration.Designer.cs">
+      <DependentUpon>202103151420459_initialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,8 +99,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202103121156508_initialze.resx">
-      <DependentUpon>202103121156508_initialze.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103151420459_initialMigration.resx">
+      <DependentUpon>202103151420459_initialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
