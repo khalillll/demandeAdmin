@@ -1,3 +1,5 @@
 /.vs
 /obj/Debug
 /DPAContext/obj/Debug
+/bin/
+/DPAContext/bin
