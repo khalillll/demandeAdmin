@@ -5,14 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
-
+<br />
 <div>
-    <h4>Document</h4>
+    <h4>Détails du document</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.type)
+            Type : 
         </dt>
 
         <dd>
@@ -20,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.description)
+            Description :
         </dt>
 
         <dd>
@@ -28,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.state)
+            Etat du document :
         </dt>
 
         <dd>
@@ -36,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.createdAt)
+            Date de création :
         </dt>
 
         <dd>
@@ -44,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.updatedAt)
+            Dernière modification
         </dt>
 
         <dd>
@@ -54,6 +53,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editer", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Retourner vers la page d'accueil", "Index")
 </p>
