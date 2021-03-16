@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DPAContext.Role>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Liste des rôles</h3>
+<hr />
+<p>
+    @Html.ActionLink("+ Nouveau rôle", "Create",null,null,new { @class = "btn btn-primary" } )
+</p>
+<br />
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            Rôle
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Date de création
+        </th>
+        <th>
+            Dernière modification
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createdAt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updatedAt)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-sm btn-default" })
+            @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "btn btn-sm btn-info" })
+            @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-sm btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
