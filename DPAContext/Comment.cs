@@ -9,7 +9,7 @@ namespace DPAContext
     [Table("Comment")]
     public partial class Comment
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
 
         [StringLength(250)]
