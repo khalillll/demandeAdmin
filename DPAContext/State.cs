@@ -17,7 +17,7 @@ namespace DPAContext
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
-        [DisplayName("Libelle")]
+        [DisplayName("Nom")]
         [StringLength(50)]
         public string name { get; set; }
         [DisplayName("Description")]
