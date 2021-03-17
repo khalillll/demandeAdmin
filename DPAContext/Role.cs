@@ -21,6 +21,7 @@ namespace DPAContext
 
         [DisplayName("Nom")]
         [StringLength(50)]
+        [DisplayName("Role Name")]
         public string name { get; set; }
 
         [DisplayName("Description")]
