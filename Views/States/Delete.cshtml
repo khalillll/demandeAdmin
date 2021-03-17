@@ -1,4 +1,4 @@
-﻿@model DPAContext.Role
+﻿@model DPAContext.State
 
 @{
     ViewBag.Title = "Delete";
@@ -11,7 +11,7 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Rôle :
+            @Html.DisplayNameFor(model => model.name)
         </dt>
 
         <dd>
@@ -19,7 +19,7 @@
         </dd>
 
         <dt>
-            Description :
+            @Html.DisplayNameFor(model => model.description)
         </dt>
 
         <dd>
@@ -27,7 +27,7 @@
         </dd>
 
         <dt>
-            Date de création :
+            @Html.DisplayNameFor(model => model.createdAt)
         </dt>
 
         <dd>
@@ -35,7 +35,7 @@
         </dd>
 
         <dt>
-            Dernière modification :
+            @Html.DisplayNameFor(model => model.updatedAt)
         </dt>
 
         <dd>
