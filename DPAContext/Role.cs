@@ -2,6 +2,7 @@ namespace DPAContext
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
@@ -15,17 +16,22 @@ namespace DPAContext
             Users = new HashSet<User>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
 
+        [DisplayName("Nom")]
         [StringLength(50)]
+        [DisplayName("Role Name")]
         public string name { get; set; }
 
+        [DisplayName("Description")]
         [StringLength(250)]
         public string description { get; set; }
 
+        [DisplayName("Date de création")]
         public DateTime? createdAt { get; set; }
 
+        [DisplayName("Dernière modification")]
         public DateTime? updatedAt { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
