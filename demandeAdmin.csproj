@@ -269,6 +269,12 @@
       <DependentUpon>202103111523129_initialcreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DPAContext\DPAContext.csproj">
+      <Project>{5b3b1882-a4dd-4e67-b828-11fc55401e0d}</Project>
+      <Name>DPAContext</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
