@@ -21,7 +21,7 @@ namespace demandeAdmin.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("DPAContextModels", throwIfV1Schema: false)
         {
         }
 
